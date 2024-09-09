@@ -1,0 +1,16 @@
+.header {
+    &_desktop {
+        background-color: #232323;
+
+        &_container {
+            width: 90%;
+            margin: auto;
+        }
+        &_top {
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+}
